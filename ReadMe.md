@@ -17,25 +17,6 @@ The results are packaged as figures/CSVs and compiled into a LaTeX report.
 
 ---
 
-## Directory Layout
-
-```text
-quadratic_contraction_lemma/
-├── README.md
-├── qc_outputs/
-│   ├── ideal_trajectories.png
-│   ├── leak_effect.png
-│   └── stress_test_summary.csv
-├── cv_outputs/
-│   ├── zscore_per_coordinate.png
-│   ├── crossfit_gradient_direct.csv
-│   └── summary.json
-├── contraction_stability_analyzer_v2.py
-└── no_linear_terms_survive_crosssplit.py
-```
-
----
-
 ## Quick Start
 
 ### 1. Python Environment Setup
