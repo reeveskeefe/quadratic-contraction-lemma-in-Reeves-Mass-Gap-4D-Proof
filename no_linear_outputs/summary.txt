@@ -1,0 +1,12 @@
+=== No-Linear-Terms Survive: Diagnostic Summary ===
+Samples: 200,000 | Dim: 20 | FD step h=0.005
+
+Centered case (should have NO linear term):
+  ||∇L(0)||_∞ = 9.739e-04  (tolerance 5.0e-03)  -> PASS
+  Max |directional grad| over 16 dirs = 2.904e-04  (tol 3.0e-03) -> PASS
+  Hessian vs Covariance (Frobenius rel. err) = 8.223e-03  (tol 2.0e-02) -> PASS
+
+Uncentered control (SHOULD show a linear leak):
+  ||∇L(0)||_∞ (uncentered) = 1.940e-01  -> should be noticeably > 0
+
+OVERALL: PASS

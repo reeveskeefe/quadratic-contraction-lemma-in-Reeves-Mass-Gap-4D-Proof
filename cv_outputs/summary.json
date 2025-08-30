@@ -1,0 +1,15 @@
+{
+  "RNG_SEED": 42,
+  "DIM": 20,
+  "N_SAMPLES": 200000,
+  "K_FOLDS": 10,
+  "FD_H": 0.005,
+  "TRIM_FRAC": 0.02,
+  "WINSOR_FRAC": 0.02,
+  "ANTITHETIC": false,
+  "z_max_direct": 1.151549962112981,
+  "z_tol": 3.0,
+  "rel_fro(H,Cov)": 0.0004288349686749952,
+  "rel_fro_tol": 0.02,
+  "OVERALL": "PASS"
+}
