@@ -1,7 +1,0 @@
-name,sum_eta,prod_losses,is_summable,decay_type
-"Ideal (A=50, Strong Seed)",0.016328430180437864,0.8436503061958195,True,Double-Exponential
-"Ideal (A=50, Weak Seed)",0.08006398034547514,0.41919539520577737,True,Exponential
-"Ideal (A=5, Strong Seed)",0.16328430180437864,0.0,False,Double-Exponential
-Noisy A (rho=0.25),0.018430566607645003,0.8254626615391552,True,Exponential
-Fatal Leak (eps=0.05),0.017553024534086976,0.8330797353954805,True,Exponential
-Fatal Leak (eps=0.20),0.02289301319836358,0.7884025038827996,True,Exponential
